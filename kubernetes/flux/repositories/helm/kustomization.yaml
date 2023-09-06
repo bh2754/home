@@ -17,7 +17,7 @@ resources:
   - ./jetstack.yaml
   - ./k8s-gateway.yaml
   - ./kubernetes-dashboard.yaml
-  - ./kynervo.yaml
+  - ./kyverno.yaml
   - ./metrics-server.yaml
   - ./prometheus-community.yaml
   - ./rook-ceph.yaml
