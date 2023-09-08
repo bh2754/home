@@ -24,7 +24,8 @@ spec:
   values:
     image:
       repository: haveagitgat/tdarr
-      tag: 2.00.20.1
+    # tag: 2.00.20.1
+      tag: 2.11.01
       pullPolicy: IfNotPresent
     env:
       TZ: ${TZ}
@@ -41,7 +42,8 @@ spec:
       id: node
       image:
         repository: haveagitgat/tdarr_node
-        tag: 2.00.19.1
+      # tag: 2.00.20.1
+        tag: 2.11.01
         pullPolicy: IfNotPresent
     persistence:
       data:
