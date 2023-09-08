@@ -9,7 +9,7 @@ metadata:
     substitution.flux.home.arpa/enabled: "true"
 spec:
   dependsOn:
-    - name: cluster-apps-rook-ceph-cluster
+    - name: cluster-rook-ceph-cluster
   path: ./kubernetes/apps/monitoring/uptime/app
   prune: true
   sourceRef:
