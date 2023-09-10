@@ -40,9 +40,9 @@ spec:
     storageClassName: ceph-block
     cacheStorageClassName: ceph-block
     moverSecurityContext:
-      runAsUser: 1000
-      runAsGroup: 100
-      fsGroup: 100
+      runAsUser: 0
+      runAsGroup: 0
+      fsGroup: 0
     retain:
       daily: 10
       within: 3d
