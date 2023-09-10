@@ -42,9 +42,9 @@ spec:
     retain:
       daily: 10
       within: 3d
-    moverSecurityContext:
-      runAsUser: 1000
-      runAsGroup: 100
-      fsGroup: 100
-      fsGroupChangePolicy: "OnRootMismatch"
-      supplementalGroups: [100, 568]
+#   moverSecurityContext:
+#     runAsUser: 1000
+#     runAsGroup: 100
+#     fsGroup: 100
+#     fsGroupChangePolicy: "OnRootMismatch"
+#     supplementalGroups: [100, 568]
