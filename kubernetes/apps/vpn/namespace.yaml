@@ -13,6 +13,8 @@ metadata:
   labels:
     routed-gateway: "true"
     goldilocks.fairwinds.com/enabled: "true"
+  annotations:
+    volsync.backube/privileged-movers: "true"
 ---
 apiVersion: v1
 kind: Namespace
@@ -21,3 +23,5 @@ metadata:
   labels:
     routed-gateway: "true"
     goldilocks.fairwinds.com/enabled: "true"
+  annotations:
+    volsync.backube/privileged-movers: "true"
