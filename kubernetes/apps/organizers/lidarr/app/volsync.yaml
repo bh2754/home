@@ -43,8 +43,8 @@ spec:
       daily: 10
       within: 3d
 #   moverSecurityContext:
-#     runAsUser: 568
-#     runAsGroup: 568
-#     fsGroup: 568
-#     fsGroupChangePolicy: "OnRootMismatch"
-#     supplementalGroups: [0, 100, 101, 568]
+      runAsUser: 568
+      runAsGroup: 568
+      fsGroup: 568
+      fsGroupChangePolicy: "OnRootMismatch"
+      supplementalGroups: 100
