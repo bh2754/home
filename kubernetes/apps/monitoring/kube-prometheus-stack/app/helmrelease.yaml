@@ -10,7 +10,7 @@ spec:
   chart:
     spec:
       chart: kube-prometheus-stack
-      version: 50.3.1
+      version: 48.1.2
       sourceRef:
         kind: HelmRepository
         name: prometheus-community
@@ -135,7 +135,7 @@ spec:
         storageSpec:
           volumeClaimTemplate:
             spec:
-              storageClassName: ceph-block
+              storageClassName: local-path
               resources:
                 requests:
                   storage: 10Gi
